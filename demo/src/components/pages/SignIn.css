@@ -1,0 +1,125 @@
+.sign-up-container {
+  background: linear-gradient(
+    69deg,
+    rgb(220, 204, 237) 5%,
+    rgb(195, 133, 249) 100%
+  );
+  height: 90vh;
+}
+@import url("https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur");
+
+.card-container {
+  width: 70vw;
+  margin-left: 40vh;
+  margin-right: 19vh;
+  height: 70vh;
+}
+form {
+  width: 450px;
+  min-height: 500px;
+  border-radius: 5px;
+  margin: 3%;
+  margin-left: 80vh;
+  padding: 2%;
+}
+form .con {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header {
+  margin: 2% auto 10% auto;
+  text-align: center;
+}
+header h2 {
+  font-size: 250%;
+  font-family: "Playfair Display", serif;
+  color: #3e403f;
+}
+header p {
+  letter-spacing: 0.05em;
+}
+.input-item {
+  background: #e8e8fb;
+  color: rgb(74, 10, 109);
+  padding: 14.5px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px;
+}
+#eye {
+  background: #e8e8fb;
+  color: rgb(74, 10, 109);
+  margin: 5.9px 13px 0 0;
+  margin-left: -20px;
+  padding: 14.5px 9px 19px 0px;
+  border-radius: 0px 5px 5px 0px;
+  float: right;
+  position: relative;
+  right: 1%;
+  cursor: pointer;
+}
+input[class="form-input"] {
+  width: 260px;
+  height: 50px;
+  margin-top: 2%;
+  padding: 15px;
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+  color: #5e6472;
+  outline: none;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #e8e8fb;
+}
+input[type="text"] {
+  width: 269px;
+}
+input[type="email"] {
+  width: 269px;
+}
+input[type="password"] {
+  width: 269px;
+}
+input[id="pwd"] {
+  width: 265px;
+}
+
+button {
+  color: #252537;
+
+  width: 280px;
+  height: 50px;
+
+  padding: 0 20px;
+  background-color: #e8e8fb;
+  border-radius: 5px;
+
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+  text-align: center;
+  margin: 7% auto;
+}
+.log-in{
+  width: 270px;
+}
+.submits {
+  width: 48%;
+}
+.frgt-pass {
+  background: transparent;
+}
+.sign-up {
+  background: #bfc3df;
+}
+button:hover {
+  transform: translatey(3px);
+}
+@keyframes ani9 {
+  0% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}

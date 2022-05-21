@@ -1,0 +1,6 @@
+.card {
+  background-image: linear-gradient(to top, #c8f4f1 0%, #e9adc0 100%);
+  border-radius: 6px;
+  box-shadow: 3px 4px 9px 8px rgba(0, 0, 0, 0.2);
+  height: 100%;
+}

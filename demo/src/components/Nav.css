@@ -1,0 +1,56 @@
+.nav-container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  display: flex;
+  height: 80px;
+}
+.title {
+  background-color: transparent;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: rgb(80, 55, 94);
+  cursor: pointer;
+}
+.logoLink {
+  background-color: transparent;
+  margin-bottom: -5px;
+}
+.logoLink1 {
+  background-color: transparent;
+  margin-bottom: -3px;
+  margin-left: 5px;
+}
+.list {
+  background-color: transparent;
+}
+.menu {
+  background-color: transparent;
+  list-style: none;
+  display: flex;
+}
+.navLink {
+  font-weight: bold;
+  background-color: transparent;
+  color: rgb(80, 55, 94);
+  text-decoration: none;
+  margin: 7vh;
+  padding: 1.6rem 0.5rem;
+  height: 100%;
+  font-size: 1.3rem;
+}
+.navLink:hover {
+  border-bottom: 4px solid rgb(80, 55, 94);
+  transition: all 0.2s ease-out;
+}
+.btn-signout{
+  width: 20vh;
+  font-size: 1.3rem;
+  margin-right: 10vh;
+  background-color: transparent;
+  margin-left: 1vh;
+}
